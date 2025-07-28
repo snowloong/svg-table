@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "A high-performance virtual scrolling table component based on SVG, WebComponent, and Web Worker, designed for large-scale data visualization and smooth interaction.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:serve": "npx docsify serve docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,6 @@
     "omi": "^7.7.13"
   },
   "devDependencies": {
-    "docsify-cli": "^4.4.4"
+    "vitepress": "^1.6.3"
   }
 }
