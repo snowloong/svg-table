@@ -1,23 +1,23 @@
 {
-  "name": "svg-table",
-  "version": "1.0.0",
-  "description": "A high-performance virtual scrolling table component based on SVG, WebComponent, and Web Worker, designed for large-scale data visualization and smooth interaction.",
-  "main": "index.js",
+  "name": "omi-starter-ts",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
+    "start": "vite --host --port 3000",
+    "dev": "vite --host --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 3000",
+    "docs:dev": "vitepress dev docs --port 5173",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs --port 5173"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "comlink": "^4.4.2",
     "omi": "^7.7.13"
   },
   "devDependencies": {
+    "vite": "^7.0.4",
     "vitepress": "^1.6.3"
   }
 }

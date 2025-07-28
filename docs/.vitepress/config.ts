@@ -14,6 +14,7 @@ export default defineConfig({
   title: 'SVG Table',
   description: 'A high-performance virtual scrolling table component based on SVG, WebComponent, and Web Worker',
   lang: 'zh-CN',
+  port: 5173,
   locales: {
     root: {
       label: '中文',
